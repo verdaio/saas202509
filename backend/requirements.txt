@@ -1,5 +1,5 @@
 # Django Core
-Django==5.1
+Django==5.1.14
 
 # Database
 psycopg[binary]>=3.2  # PostgreSQL adapter
@@ -10,7 +10,7 @@ django-environ==0.11.2
 
 # API
 djangorestframework==3.15.2
-djangorestframework-simplejwt==5.3.1  # JWT authentication
+djangorestframework-simplejwt==5.5.1  # JWT authentication
 drf-spectacular==0.27.2  # OpenAPI 3.0 documentation
 django-filter==24.3  # URL filtering for DRF
 django-cors-headers==4.3.1  # CORS support for API
@@ -19,7 +19,7 @@ django-cors-headers==4.3.1  # CORS support for API
 django-extensions==3.2.3  # Extra management commands
 
 # Production Server
-gunicorn==21.2.0  # WSGI HTTP Server
+gunicorn==22.0.0  # WSGI HTTP Server
 
 # Testing
 pytest==8.3.4
