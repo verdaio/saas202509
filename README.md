@@ -528,7 +528,7 @@ git add .
 git commit -m "feat: description"
 
 # Push to GitHub
-git push origin master
+git push origin main
 ```
 
 ### Commit Message Format
